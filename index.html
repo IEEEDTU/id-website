@@ -9,14 +9,15 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet"> </head>
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/jssor.css" type="text/css" rel="stylesheet" /> </head>
 
 <body>
     <!--nav bar starts-->
     <div class="navbar-fixed">
         <nav class="white" role="navigation">
             <div class="nav-wrapper container">
-                <!--                <div class="left valign-wrapper" style="height:100%"> <img src="img/ieeedtulogo.png" alt="IEEE DTU" height="40" class=" brand-logo valign"> </div>-->
+<!--                <div class="left valign-wrapper hide-on-large-only" style="height:100%"> <img src="img/logo-horizontal.jpg" alt="IEEE DTU" height="40" class=" brand-logo valign"> </div>-->
                 <ul class="right hide-on-med-and-down">
                     <li><a href="http://ieeedtu.com/ieeedtu/"> Home</a></li>
                     <li class="dropdown-button" data-activates="about"><a>About<i class="material-icons right">arrow_drop_down</i></a> </li>
@@ -81,30 +82,33 @@
     </div>
     <!--navbar ends-->
     <!-- header starts -->
-    <div id="index-banner" class="container">
-        <div class="slider">
-            <ul class="slides">
-                <li> <img src="img/android.jpg"> </li>
-                <li> <img src="img/xtreme.jpg"> </li>
-                <li> <img src="img/ieeedtu.jpg"> </li>
-            </ul>
+    <div id="index-banner">
+        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;" class="hoverable z-depth-1">
+            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;" class="valign-wrapper">
+                <div data-p="225.00" style="display: none;"> <img data-u="image" src="img/ieeedtu.jpg" /> </div>
+                <div data-p="225.00" style="display: none;"> <img data-u="image" src="img/xtreme.jpg" /> </div>
+                <div data-p="225.00" style="display: none;"> <img data-u="image" src="img/android.jpg" /> </div>
+                <!-- Bullet Navigator -->
+                <div data-u="navigator" class="jssorb05" style="bottom:8px;right:12px;" data-autocenter="1">
+                    <!-- bullet navigator item prototype -->
+                    <div data-u="prototype" style="width:16px;height:16px;"></div>
+                </div>
+                <!-- Arrow Navigator --><span data-u="arrowleft" class="jssora22l valign" style="left:12px;width:40px;height:58px;" data-autocenter="2"></span> <span data-u="arrowright" class="jssora22r valign" style="right:12px;width:40px;height:58px;" data-autocenter="2"></span> </div>
+            <!-- #endregion Jssor Slider End -->
         </div>
     </div>
     <!-- header ends -->
     <!-- welcome starts -->
     <div class="container">
         <div class="section">
-            <!--   Icon Section   -->
             <div class="row">
                 <div class="col s12 m5">
                     <div class="center-align">
                         <h2> Welcome to</h2>
-                        <h1> IEEE DTU</h1> <img src="img/ieeelogo.svg" height=100px/> <img src="img/dtulogo.png" height=100px/> </div>
+                        <h1> IEEE DTU</h1> <img src="img/ieeelogo.svg" height=100px/> &nbsp;&nbsp; <img src="img/dtulogo.png" height=100px/> </div>
                 </div>
-                <div class="col s12 m7 valign-wrapper" style="height:100%">
-                    <div class="valign-wrapper">
-                        <p class="valign" style="height:100%">IEEE DTU Student Branch is the oldest as well as the largest student branch in Delhi Section of Region 10. With the aim of instilling scientific temperament in the student community through a plethora of activities around the year it boasts of a colorful history spanning over three decades. Today, IEEE DTU claims to have under its wing a massive strength of more than 450 student members, working actively throughout the year.</p>
-                    </div>
+                <div class="col s12 m7" style="height:100%">
+                    <p class="flow-text">IEEE DTU Student Branch is the oldest as well as the largest student branch in Delhi Section of Region 10. With the aim of instilling scientific temperament in the student community through a plethora of activities around the year it boasts of a colorful history spanning over three decades. Today, IEEE DTU claims to have under its wing a massive strength of more than 450 student members, working actively throughout the year.</p>
                 </div>
             </div>
         </div>
@@ -162,11 +166,12 @@
         </div>
     </footer>
     <!-- footer ends -->
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
+    <script src="js/jssor.slider-21.1.6.mini.js" type="text/javascript"></script>
+    <!-- JSSOR Slider -->
     <script src="js/init.js"></script>
-    <script type="text/javascript" language="javascript">
-    </script>
 </body>
 
 </html>
