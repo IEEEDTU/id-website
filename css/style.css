@@ -16,6 +16,10 @@ nav .brand-logo {
 }
 */
 
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
 .bold {
     font-weight: bold;
 }
