@@ -8,12 +8,17 @@
  * Made By MaterializeCSS.com
  */
 
+
 /*
 nav ul a,
 nav .brand-logo {
     color: ;
 }
 */
+
+.bold {
+    font-weight: bold;
+}
 
 p {
     line-height: 2rem;
@@ -29,10 +34,12 @@ p {
     height: auto;
     color: rgba(255, 255, 255, .9);
 }
+
 .carousel {
     min-height: 200vh;
     height: auto;
 }
+
 @media only screen and (max-width: 992px) {
     .parallax-container .section {
         position: absolute;

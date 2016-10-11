@@ -5671,7 +5671,7 @@ button.btn-floating {
     border: none;
     line-height: inherit;
     height: inherit;
-    padding: 0 16px;
+    padding: 0;
 }
 
 .side-nav .collapsible-header:hover,
